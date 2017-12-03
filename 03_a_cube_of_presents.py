@@ -20,7 +20,7 @@ def main():
     """
     dimensions = list(map(int, input().split()))
     edge_length = lcm(*dimensions)
-    print(reduce(mul, [edge_length // x for x in dimensions]))
+    print(reduce(mul, map(lambda x: edge_length // x, dimensions)))
 
 
 if __name__ == "__main__":
