@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-import sys
-
 __author__ = "Christoph Rist"
 __license__ = "MIT"
 
