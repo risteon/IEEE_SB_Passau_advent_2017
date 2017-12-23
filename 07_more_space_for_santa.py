@@ -59,9 +59,6 @@ def walk_tree(node, prefix="", code={}):
 def main():
     """
     """
-    if True:
-        sys.stdin = open("samples/07.1_input.txt")
-
     chars = list(sys.stdin.read().strip())
     freq = collections.Counter(chars)
     root = create_huffman_coding(freq.most_common())
